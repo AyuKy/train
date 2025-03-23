@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 
 
 @SpringBootApplication
-@ComponentScan("com.Ayuky.train.member.controller")
+@ComponentScan("com.Ayuky")//显式指定扫描的包
 public class MemberApplication {
     private static final Logger LOG = LoggerFactory.getLogger(MemberApplication.class);
     public static void main(String[] args){
